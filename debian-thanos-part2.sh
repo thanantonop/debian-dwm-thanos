@@ -20,7 +20,7 @@ mv neovim neovim_stable
 cd ~
 sudo cp dwm.desktop /usr/share/xsessions/
 sudo ufw enable
-sudo apt install lsd dunst xbacklight stterm mpv cmus audacious geany meld libreoffice libreoffice-gtk3 abiword gimp keepassxc darktable qimgv blueman lxappearance flatpak thunar thunar-volman thunar-archive-plugin dmenu acpi numlockx playerctl scrot sysstat xbindkeys feh galculator file-roller gvfs jq x11-utils tumbler ttf-mscorefonts-installer -y
+sudo apt install lsd dunst xbacklight stterm mpv cmus audacious geany meld libreoffice libreoffice-gtk3 abiword gimp keepassxc darktable qimgv blueman lxappearance flatpak thunar thunar-volman thunar-archive-plugin dmenu acpi numlockx playerctl scrot sysstat xbindkeys feh galculator file-roller gvfs jq x11-utils tumbler vlc ttf-mscorefonts-installer -y
 cd ~
 cd ~/github/neovim_stable
 git checkout stable
