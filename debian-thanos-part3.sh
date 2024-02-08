@@ -7,4 +7,5 @@ rm -rf .git
 cd ~
 cp kitty.conf ~/.config/kitty/
 cp picom.conf ~/.config/picom
+cp config.rasi ~/.config/rofi/
 cd ~

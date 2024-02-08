@@ -20,7 +20,7 @@ mv neovim neovim_stable
 cd ~
 sudo cp dwm.desktop /usr/share/xsessions/
 sudo ufw enable
-sudo apt install lsd dunst xbacklight stterm mpv cmus audacious geany meld libreoffice libreoffice-gtk3 abiword gimp keepassxc darktable qimgv blueman lxappearance flatpak thunar thunar-volman thunar-archive-plugin dmenu acpi numlockx playerctl scrot sysstat xbindkeys feh galculator file-roller gvfs jq x11-utils tumbler vlc ttf-mscorefonts-installer -y
+sudo apt install lsd dunst xbacklight stterm mpv cmus audacious geany meld libreoffice libreoffice-gtk3 abiword gimp keepassxc darktable qimgv blueman lxappearance flatpak thunar thunar-volman thunar-archive-plugin dmenu acpi numlockx playerctl scrot sysstat xbindkeys feh galculator file-roller gvfs jq x11-utils tumbler vlc ttf-mscorefonts-installer arc-theme -y
 cd ~
 cd ~/github/neovim_stable
 git checkout stable
@@ -30,10 +30,15 @@ sudo make install
 cd ~
 echo "options snd_hda_intel power_save=0" | sudo tee -a /etc/modprobe.d/audio_disable_powersave.conf
 cd ~
+mkdir Downloads
+cd ~/Downloads
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/FiraCode.zip
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Meslo.zip
 unzip FiraCode.zip -d /home/thanos/.fonts
 unzip Meslo.zip -d /home/thanos/.fonts
+git clone https://github.com/alvatip/Nordzy-icon.git
+cd ~/Downloads/Nordzy-icon/
+./install.sh
 cd ~
 git clone https://github.com/ChrisTitusTech/neovim.git
 cd ~/neovim/
