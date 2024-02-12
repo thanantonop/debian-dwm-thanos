@@ -8,6 +8,10 @@ cd ~
 cp kitty.conf ~/.config/kitty/
 cp picom.conf ~/.config/picom.conf
 cp config.rasi ~/.config/rofi/
+mkdir -p ~/.config/gtk-3.0/
+mkdir -p ~/.config/gtk-2.0/
+cp settings.ini ~/.config/gtk-3.0/
+cp gtkrc-2.0 ~/.config/gtk-2.0/
 sudo cp 30-keyboard.conf /etc/X11/xorg.conf.d/
 mv debian-dwm-thanos ~/github
 cp ~/github/debian-dwm-thanos/.Xresources ~/
