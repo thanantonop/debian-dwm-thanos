@@ -50,4 +50,4 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] http
 sudo apt update -y
 sudo apt install brave-browser -y
 cd ~
-sudo ln -s /usr/bin/kitty /usr/bin/gnome-terminal
+sudo ln -s /usr/local/bin/st /usr/bin/gnome-terminal
