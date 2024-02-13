@@ -6,6 +6,7 @@ cd ~/Pictures/backgrounds/nordic-backgrounds
 rm -rf .git
 cd ~
 cp kitty.conf ~/.config/kitty/
+cp theme.conf ~/.config/kitty/
 cp picom.conf ~/.config/picom.conf
 cp config.rasi ~/.config/rofi/
 mkdir -p ~/.config/gtk-3.0/
