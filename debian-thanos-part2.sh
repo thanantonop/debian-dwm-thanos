@@ -20,7 +20,7 @@ mv neovim neovim_stable
 cd ~
 sudo cp dwm.desktop /usr/share/xsessions/
 sudo ufw enable
-sudo apt install python3 python3-pip lsd dunst xbacklight stterm mpv cmus audacious geany meld libreoffice libreoffice-gtk3 abiword emacs gimp blender transmission-gtk evince keepassxc inkscape darktable filezilla qimgv blueman lxappearance flatpak thunar thunar-volman thunar-archive-plugin dmenu acpi numlockx playerctl scrot sysstat xbindkeys feh galculator file-roller gvfs jq x11-utils tumbler vlc ttf-mscorefonts-installer arc-theme -y
+sudo apt install python3 python3-pip lsd dunst xbacklight stterm mpv cmus audacious geany meld libreoffice libreoffice-gtk3 abiword emacs gimp blender transmission-gtk evince keepassxc inkscape darktable filezilla qimgv blueman lxappearance flatpak thunar thunar-volman thunar-archive-plugin dmenu acpi numlockx playerctl scrot sysstat xbindkeys feh galculator file-roller gvfs jq x11-utils tumbler vlc ttf-mscorefonts-installer arc-theme chromium cherrytree tree -y
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 cd ~
 cd ~/github/neovim_stable
@@ -33,8 +33,8 @@ echo "options snd_hda_intel power_save=0" | sudo tee -a /etc/modprobe.d/audio_di
 cd ~
 mkdir Downloads
 cd ~/Downloads
-wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/FiraCode.zip
-wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Meslo.zip
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Meslo.zip
 unzip FiraCode.zip -d /home/thanos/.fonts
 unzip Meslo.zip -d /home/thanos/.fonts
 git clone https://github.com/alvatip/Nordzy-icon.git
