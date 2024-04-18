@@ -35,8 +35,8 @@ mkdir Downloads
 cd ~/Downloads
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Meslo.zip
-unzip FiraCode.zip -d /home/thanos/.fonts
-unzip Meslo.zip -d /home/thanos/.fonts
+unzip FiraCode.zip -d ~/.fonts
+unzip Meslo.zip -d ~/.fonts
 git clone https://github.com/alvatip/Nordzy-icon.git
 cd ~/Downloads/Nordzy-icon/
 ./install.sh
@@ -51,3 +51,7 @@ sudo apt update -y
 sudo apt install brave-browser -y
 cd ~
 sudo ln -s /usr/local/bin/st /usr/bin/gnome-terminal
+cd ~
+sudo cp -R ~/.local/share/icons/* /usr/share/icons/
+sudo rm -rf ~/.local/share/icons
+cd ~
