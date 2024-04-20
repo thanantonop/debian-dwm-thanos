@@ -9,6 +9,7 @@ cp kitty.conf ~/.config/kitty/
 cp theme.conf ~/.config/kitty/
 cp picom.conf ~/.config/picom.conf
 cp config.rasi ~/.config/rofi/
+cp sidetab-nord.rasi ~/.config/rofi/themes/
 mkdir -p ~/.config/gtk-3.0/
 mkdir -p ~/.config/gtk-2.0/
 mkdir -p ~/.config/dunst/
