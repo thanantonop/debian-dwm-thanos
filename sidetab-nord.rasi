@@ -2,7 +2,7 @@
     background: #1E222A;
     foreground: #E5E9F0;
     border-color: @background;
-    bg-selected: #BF616A;
+    bg-selected: #5E81AC;
     grey: #565C64;
     spacing: 2;
     width: 30em;
