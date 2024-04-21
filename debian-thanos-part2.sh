@@ -28,7 +28,7 @@ mv neovim neovim_stable
 cd ~
 sudo cp dwm.desktop /usr/share/xsessions/
 sudo ufw enable
-sudo apt install python3 python3-pip lsd dunst xbacklight stterm mpv cmus audacious geany meld libreoffice libreoffice-gtk3 abiword emacs gimp blender transmission-gtk evince keepassxc inkscape darktable filezilla qimgv blueman lxappearance flatpak thunar thunar-volman thunar-archive-plugin dmenu acpi numlockx playerctl scrot sysstat xbindkeys feh galculator file-roller gvfs jq x11-utils tumbler vlc ttf-mscorefonts-installer arc-theme chromium cherrytree tree redshift -y
+sudo apt install python3 python3-pip lsd dunst xbacklight stterm mpv cmus audacious geany meld libreoffice libreoffice-gtk3 abiword emacs gimp blender transmission-gtk evince keepassxc inkscape darktable filezilla qimgv blueman lxappearance flatpak thunar thunar-volman thunar-archive-plugin dmenu acpi numlockx playerctl scrot sysstat xbindkeys feh galculator file-roller gvfs jq x11-utils tumbler vlc ttf-mscorefonts-installer chromium cherrytree tree redshift -y
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 cd ~
 cd ~/github/neovim_stable
@@ -45,9 +45,6 @@ wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.z
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Meslo.zip
 unzip FiraCode.zip -d ~/.fonts
 unzip Meslo.zip -d ~/.fonts
-git clone https://github.com/alvatip/Nordzy-icon.git
-cd ~/Downloads/Nordzy-icon/
-./install.sh
 cd ~
 git clone https://github.com/ChrisTitusTech/neovim.git
 cd ~/neovim/
@@ -59,7 +56,4 @@ sudo apt update -y
 sudo apt install brave-browser -y
 cd ~
 sudo ln -s /usr/local/bin/st /usr/bin/gnome-terminal
-cd ~
-sudo cp -R ~/.local/share/icons/* /usr/share/icons/
-sudo rm -rf ~/.local/share/icons
 cd ~

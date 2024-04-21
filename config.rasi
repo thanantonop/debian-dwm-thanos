@@ -2,9 +2,9 @@
 
 configuration {
   show-icons: true;
-  icon-theme: "Nordzy-dark";
+  icon-theme: "Papirus";
   display-drun: "";
   display-window: "﩯 ";
   display-combi: "  ";
 }
-@theme "themes/sidetab-nord.rasi"
+@theme "themes/sidetab-dwm.rasi"
