@@ -1,3 +1,4 @@
+xdg-user-dirs-update
 cd ~
 mkdir -p ~/Pictures/backgrounds
 cd ~
@@ -21,4 +22,3 @@ sudo rm -rf /usr/share/icons/Nordzy*
 flatpak install flathub com.visualstudio.code -y
 flatpak install flathub com.spotify.Client -y
 flatpak install flathub org.onlyoffice.desktopeditors -y
-
