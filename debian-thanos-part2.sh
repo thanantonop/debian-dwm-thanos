@@ -6,8 +6,8 @@ cd ~/github
 git clone https://github.com/thanantonop/dwm-thanos.git
 git clone https://github.com/thanantonop/st-thanos.git
 git clone https://github.com/thanantonop/dmenu-thanos.git
-git clone https://github.com/thanantonop/surf-thanos.git
-git clone https://github.com/thanantonop/tabbed-thanos.git
+#git clone https://github.com/thanantonop/surf-thanos.git
+#git clone https://github.com/thanantonop/tabbed-thanos.git
 git clone https://github.com/neovim/neovim.git
 cd dwm-thanos
 sudo make clean install
@@ -18,12 +18,12 @@ cd ..
 cd dmenu-thanos
 sudo make clean install
 cd ..
-cd surf-thanos
-sudo make clean install
-cd ..
-cd tabbed-thanos
-sudo make clean install
-cd ..
+#cd surf-thanos
+#sudo make clean install
+#cd ..
+#cd tabbed-thanos
+#sudo make clean install
+#cd ..
 mv neovim neovim_stable
 cd ~
 sudo cp dwm.desktop /usr/share/xsessions/

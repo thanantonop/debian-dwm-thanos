@@ -20,6 +20,4 @@ cp ~/github/debian-dwm-thanos/.Xresources ~/
 cd ~
 sudo rm -rf /usr/share/themes/Nordic/
 sudo rm -rf /usr/share/icons/Nordzy*
-flatpak install flathub com.visualstudio.code -y
-flatpak install flathub com.spotify.Client -y
-flatpak install flathub org.onlyoffice.desktopeditors -y
+flatpak install flathub com.visualstudio.code-oss -y
