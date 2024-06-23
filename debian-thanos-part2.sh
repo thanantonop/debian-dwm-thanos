@@ -1,5 +1,6 @@
 cd ~
 cp ~/.bashrc.bak ~/.bashrc.orig
+sudo apt install firmware-iwlwifi -y
 sudo apt install lightdm x11-xserver-utils pulseaudio xorg xcb libx11-xcb-dev libxcb-res0-dev arandr network-manager alsa-utils dmenu zoxide trash-cli ufw libglib2.0-dev libgtk-3-dev libgcr-3-dev libwebkit2gtk-4.0-dev firefox-esr -y
 mkdir ~/github
 cd ~/github

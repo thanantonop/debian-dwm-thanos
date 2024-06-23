@@ -21,3 +21,10 @@ cd ~
 sudo rm -rf /usr/share/themes/Nordic/
 sudo rm -rf /usr/share/icons/Nordzy*
 flatpak install flathub com.visualstudio.code-oss -y
+sudo apt remove ifupdown -y
+sudo rm -rf /etc/network/interfaces
+sudo apt autoremove -y
+sudo apt autopurge -y
+sudo apt autoclean -y
+sudo systemctl enable NetworkManager
+sudo systemctl restart NetworkManager
