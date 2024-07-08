@@ -2,7 +2,7 @@
 # Any customization should be done in ~/.gtkrc-2.0.mine instead.
 
 gtk-theme-name="Greybird-dark"
-gtk-icon-theme-name="elementary Xfce dark"
+gtk-icon-theme-name="elementary-xfce-dark"
 gtk-font-name="Carlito 11"
 gtk-cursor-theme-name="Adwaita"
 gtk-cursor-theme-size=0
