@@ -28,3 +28,18 @@ sudo apt autopurge -y
 sudo apt autoclean -y
 sudo systemctl enable NetworkManager
 sudo systemctl restart NetworkManager
+cd ~
+mv debian-titus ~/.github
+unlink ~/.bashrc
+unlink ~/.config/starship.toml
+sudo chown -R thanos:thanos ~/github/debian-titus
+cd ~
+cp bashrc ~/github/debian-titus/mybash/.bashrc
+ln -s /home/thanos/github/debian-titus/mybash/.bashrc .bashrc
+cd ~/.config
+ln -s /home/thanos/github/debian-titus/mybash/starship.toml starship.toml
+cd ~
+cp bashrc.orig ~/.bashrc.bak
+cp bashrc.orig ~/.bashrc.orig
+echo Done
+
