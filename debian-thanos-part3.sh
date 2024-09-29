@@ -29,7 +29,7 @@ sudo apt autoclean -y
 sudo systemctl enable NetworkManager
 sudo systemctl restart NetworkManager
 cd ~
-mv debian-titus ~/.github
+mv debian-titus ~/github
 unlink ~/.bashrc
 unlink ~/.config/starship.toml
 sudo chown -R thanos:thanos ~/github/debian-titus
