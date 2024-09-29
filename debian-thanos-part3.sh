@@ -33,6 +33,9 @@ mv debian-titus ~/.github
 unlink ~/.bashrc
 unlink ~/.config/starship.toml
 sudo chown -R thanos:thanos ~/github/debian-titus
+rm -rf ~/.bashrc.bak
+rm -rf ~/.bashrc.orig
+rm -rf ~/github/debian-titus/mybash/.bashrc
 cd ~
 cp bashrc ~/github/debian-titus/mybash/.bashrc
 ln -s /home/thanos/github/debian-titus/mybash/.bashrc .bashrc
