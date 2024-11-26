@@ -30,8 +30,8 @@ echo "options snd_hda_intel power_save=0" | sudo tee -a /etc/modprobe.d/audio_di
 cd ~
 mkdir Downloads
 cd ~/Downloads
-wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip
-wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Meslo.zip
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/FiraCode.zip
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Meslo.zip
 unzip FiraCode.zip -d ~/.fonts
 unzip Meslo.zip -d ~/.fonts
 cd ~
