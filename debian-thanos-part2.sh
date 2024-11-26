@@ -19,7 +19,7 @@ cd ..
 cd ~
 sudo cp dwm.desktop /usr/share/xsessions/
 sudo ufw enable
-sudo apt install python3 python3-pip lsd dunst xbacklight stterm mpv cmus audacious geany meld libreoffice libreoffice-gtk3 abiword emacs gimp stellarium transmission-gtk evince keepassxc inkscape darktable krita filezilla qimgv blueman lxappearance flatpak thunar thunar-volman thunar-archive-plugin dmenu acpi numlockx playerctl scrot sysstat xbindkeys feh galculator file-roller gvfs jq x11-utils tumbler vlc ttf-mscorefonts-installer chromium cherrytree xournal tree redshift synaptic conky-all cups gvfs-backends lm-sensors fonts-powerline fonts-font-awesome fonts-ubuntu fonts-ubuntu-console fonts-liberation fonts-liberation2 fonts-terminus -y
+sudo apt install python3 python3-pip lsd bat dunst xbacklight stterm mpv cmus audacious geany meld libreoffice libreoffice-gtk3 abiword emacs gimp stellarium transmission-gtk evince keepassxc inkscape darktable krita filezilla qimgv blueman lxappearance flatpak thunar thunar-volman thunar-archive-plugin dmenu acpi numlockx playerctl scrot sysstat xbindkeys feh galculator file-roller gvfs jq x11-utils tumbler vlc ttf-mscorefonts-installer chromium cherrytree xournal tree redshift synaptic conky-all cups gvfs-backends lm-sensors fonts-powerline fonts-font-awesome fonts-ubuntu fonts-ubuntu-console fonts-liberation fonts-liberation2 fonts-terminus -y
 sudo apt install multitail tree zoxide trash-cli fzf bash-completion -y
 sudo apt install network-manager-gnome lightdm-gtk-greeter-settings celluloid timeshift gdebi gparted gufw thunderbird handbrake audacity hexchat -y
 #sudo apt install xfce4 xfce4-goodies catfish -y

@@ -418,11 +418,11 @@ distribution () {
 
 
 DISTRIBUTION=$(distribution)
-#if [ "$DISTRIBUTION" = "redhat" ] || [ "$DISTRIBUTION" = "arch" ]; then
-#      alias cat='bat'
-#else
-#      alias cat='batcat'
-#fi 
+if [ "$DISTRIBUTION" = "redhat" ] || [ "$DISTRIBUTION" = "arch" ]; then
+      alias cat='bat'
+else
+      alias cat='batcat'
+fi 
 
 # Show the current version of the operating system
 ver() {
