@@ -20,7 +20,7 @@ cp ~/github/debian-dwm-thanos/.Xresources ~/
 cd ~
 sudo rm -rf /usr/share/themes/Nordic/
 sudo rm -rf /usr/share/icons/Nordzy*
-flatpak install flathub com.visualstudio.code-oss -y
+flatpak install flathub com.visualstudio.code -y
 sudo apt remove ifupdown -y
 sudo rm -rf /etc/network/interfaces
 sudo apt autoremove -y
