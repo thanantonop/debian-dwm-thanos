@@ -44,5 +44,6 @@ ln -s /home/thanos/github/debian-titus/mybash/starship.toml starship.toml
 cd ~
 cp bashrc.orig ~/.bashrc.bak
 cp bashrc.orig ~/.bashrc.orig
+cp -R backgrounds ~/Pictures/
 echo Done
 
