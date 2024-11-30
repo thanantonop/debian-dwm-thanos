@@ -1,8 +1,8 @@
 * {
-    background: #222222;
-    foreground: #BBBBBB;
+    background: #004275;
+    foreground: #FFFFFF;
     border-color: @background;
-    bg-selected: #5aecf9;
+    bg-selected: #005A9E;
     grey: #565C64;
     spacing: 2;
     width: 30em;
@@ -46,7 +46,7 @@
 
 element selected {
     background-color: @bg-selected;
-    text-color: @background;
+    text-color: @foreground;
 }
 
 element-text {

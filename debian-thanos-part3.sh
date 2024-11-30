@@ -23,8 +23,8 @@ sudo cp 30-touchpad.conf /etc/X11/xorg.conf.d/
 mv debian-dwm-thanos ~/github
 cp ~/github/debian-dwm-thanos/.Xresources ~/
 cd ~
-#sudo rm -rf /usr/share/themes/Nordic/
-#sudo rm -rf /usr/share/icons/Nordzy*
+sudo rm -rf /usr/share/themes/Nordic/
+sudo rm -rf /usr/share/icons/Nordzy*
 flatpak install flathub com.visualstudio.code -y
 sudo apt remove ifupdown -y
 sudo rm -rf /etc/network/interfaces
