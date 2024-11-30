@@ -7,7 +7,9 @@ git clone https://github.com/thanantonop/dwm-thanos.git
 git clone https://github.com/thanantonop/st-thanos.git
 cd dwm-thanos
 sudo make clean install
-cd ..
+cd slstatus
+sudo make clean install
+cd ~/github
 cd st-thanos
 sudo make clean install
 cd ..
