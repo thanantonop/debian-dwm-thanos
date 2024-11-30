@@ -2,9 +2,9 @@
 
 configuration {
   show-icons: true;
-  icon-theme: "Adwaita";
+  icon-theme: "Nordzy-dark";
   display-drun: "";
   display-window: "﩯 ";
   display-combi: "  ";
 }
-@theme "themes/sidetab-dwm.rasi"
+@theme "themes/sidetab-nord.rasi"
