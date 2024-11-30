@@ -43,6 +43,7 @@ cp theme.conf ~/.config/kitty/
 cp nord.conf ~/.config/kitty/
 cp config.rasi ~/.config/rofi/
 cp powermenu.sh ~/.config/rofi/
+cp sidetab-dwm.rasi ~/.config/rofi/themes/
 cp sidetab-nord.rasi ~/.config/rofi/themes/
 cp nord.rasi ~/.config/rofi/themes/
 cp powermenu.rasi ~/.config/rofi/themes/
