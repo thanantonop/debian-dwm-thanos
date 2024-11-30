@@ -28,7 +28,7 @@ cd Nordzy-cursors
 sudo ./install.sh
 
 # Install Nordic Theme
-sudo cd /usr/share/themes/
+cd /usr/share/themes/
 sudo git clone https://github.com/EliverLara/Nordic.git
 
 # Copy configuration files
