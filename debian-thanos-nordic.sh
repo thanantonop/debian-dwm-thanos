@@ -54,6 +54,7 @@ cp powermenu.sh ~/.config/rofi/
 cp sidetab-nord.rasi ~/.config/rofi/themes/
 cp nord.rasi ~/.config/rofi/themes/
 cp powermenu.rasi ~/.config/rofi/themes/
+cp -R alacritty ~/.config/
 cd ~
 
 # Install Nord-backgrounds
@@ -62,5 +63,4 @@ rm -rf ~/Pictures/backgrounds
 git clone https://github.com/thanantonop/nord-backgrounds.git
 mv nord-backgrounds backgrounds
 cd ~
-
 echo Done

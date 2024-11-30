@@ -37,3 +37,9 @@ unzip Meslo.zip -d ~/.fonts
 cd ~
 sudo ln -s /usr/local/bin/st /usr/bin/gnome-terminal
 cd ~
+cd ~/Pictures
+rm -rf ~/Pictures/backgrounds
+git clone https://github.com/thanantonop/nord-backgrounds.git
+mv nord-backgrounds backgrounds
+cd ~
+echo Done

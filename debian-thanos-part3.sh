@@ -17,6 +17,7 @@ mkdir -p ~/.config/dunst/
 cp settings.ini ~/.config/gtk-3.0/
 cp gtkrc-2.0 ~/.config/gtk-2.0/
 cp dunstrc ~/.config/dunst/
+cp -R alacritty ~/.config/
 sudo cp 30-keyboard.conf /etc/X11/xorg.conf.d/
 sudo cp 30-touchpad.conf /etc/X11/xorg.conf.d/
 mv debian-dwm-thanos ~/github
@@ -48,6 +49,5 @@ ln -s /home/thanos/github/debian-titus/mybash/starship.toml starship.toml
 cd ~
 cp bashrc.orig ~/.bashrc.bak
 cp bashrc.orig ~/.bashrc.orig
-yes | cp -rf backgrounds/ ~/Pictures/
 echo Done
 
