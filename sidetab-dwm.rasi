@@ -1,8 +1,8 @@
 * {
-    background: #004275;
+    background: #1D344F;
     foreground: #FFFFFF;
     border-color: @background;
-    bg-selected: #005A9E;
+    bg-selected: #5294E2;
     grey: #565C64;
     spacing: 2;
     width: 30em;
