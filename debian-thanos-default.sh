@@ -33,6 +33,7 @@ rm -rf ~/.config/rofi/themes/nord.rasi
 rm -rf ~/.config/gtk-3.0/settings.ini
 rm -rf ~/.config/gtk-2.0/gtkrc-2.0 
 rm -rf ~/.config/dunst/dunstrc
+rm -rf ~/.config/picom.conf
 cd ~/github/debian-dwm-thanos
 cp settings.ini ~/.config/gtk-3.0/
 cp gtkrc-2.0 ~/.config/gtk-2.0/
@@ -45,6 +46,7 @@ cp powermenu.sh ~/.config/rofi/
 cp sidetab-nord.rasi ~/.config/rofi/themes/
 cp nord.rasi ~/.config/rofi/themes/
 cp powermenu.rasi ~/.config/rofi/themes/
+cp picom.conf ~/.config/
 cp -R alacritty ~/.config/
 cd ~
 
