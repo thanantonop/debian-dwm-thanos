@@ -4,9 +4,13 @@ mkdir -p ~/Pictures/backgrounds
 cd ~
 cp kitty.conf ~/.config/kitty/
 cp theme.conf ~/.config/kitty/
+cp nord.conf ~/.config/kitty/
 cp picom.conf ~/.config/picom.conf
 cp config.rasi ~/.config/rofi/
-cp sidetab-dwm.rasi ~/.config/rofi/themes/
+cp powermenu.sh ~/.config/rofi/
+cp sidetab-nord.rasi ~/.config/rofi/themes/
+cp nord.rasi ~/.config/rofi/themes/
+cp powermenu.rasi ~/.config/rofi/themes/
 mkdir -p ~/.config/gtk-3.0/
 mkdir -p ~/.config/gtk-2.0/
 mkdir -p ~/.config/dunst/
