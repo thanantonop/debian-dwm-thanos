@@ -23,6 +23,7 @@ cd ~
 sudo rm -rf /usr/share/themes/Nordic/
 sudo rm -rf /usr/share/icons/Nordzy*
 flatpak install flathub com.visualstudio.code -y
+flatpak install flathub org.onlyoffice.desktopeditors -y
 sudo apt remove ifupdown -y
 sudo rm -rf /etc/network/interfaces
 sudo apt autoremove -y
