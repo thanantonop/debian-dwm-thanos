@@ -26,14 +26,11 @@ cd ~
 cd ~
 rm -rf ~/.config/kitty/kitty.conf 
 rm -rf ~/.config/kitty/theme.conf
-rm -rf ~/.config/rofi/config.rasi
-rm -rf ~/.config/rofi/themes/sidetab-dwm.rasi 
-rm -rf ~/.config/rofi/themes/sidetab-nord.rasi 
-rm -rf ~/.config/rofi/themes/nord.rasi
 rm -rf ~/.config/gtk-3.0/settings.ini
 rm -rf ~/.config/gtk-2.0/gtkrc-2.0 
 rm -rf ~/.config/dunst/dunstrc
 rm -rf ~/.config/picom.conf
+rm -rf ~/.config/rofi
 cd ~/github/debian-dwm-thanos
 cp settings.ini ~/.config/gtk-3.0/
 cp gtkrc-2.0 ~/.config/gtk-2.0/
@@ -41,13 +38,8 @@ cp dunstrc ~/.config/dunst/
 cp kitty.conf ~/.config/kitty/
 cp theme.conf ~/.config/kitty/
 cp nord.conf ~/.config/kitty/
-cp config.rasi ~/.config/rofi/
-cp powermenu.sh ~/.config/rofi/
-cp sidetab-dwm.rasi ~/.config/rofi/themes/
-cp sidetab-nord.rasi ~/.config/rofi/themes/
-cp nord.rasi ~/.config/rofi/themes/
-cp powermenu.rasi ~/.config/rofi/themes/
 cp picom.conf ~/.config/
+cp -R rofi ~/.config/
 cp -R alacritty ~/.config/
 cd ~
 
