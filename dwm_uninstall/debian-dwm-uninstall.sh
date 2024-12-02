@@ -27,9 +27,10 @@ rm -rf ~/.config/dunst
 rm -rf ~/github/dwm-thanos
 rm -rf ~/github/dmenu-thanos
 rm -rf ~/github/st-thanos
+cd ~/github/debian-dwm-thanos/dwm_uninstall/
 cp settings.ini ~/.config/gtk-3.0/
 cp gtkrc-2.0 ~/.config/gtk-2.0/
-
+cd ~
 
 #Open Terminal Here
 #exo-open --working-directory %f --launch TerminalEmulator
