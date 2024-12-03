@@ -1,4 +1,6 @@
-# Remove dwm st and dmenu
+# Script to remove the dwm and all the related to it programs and leave only as default the XFCE
+
+# Remove the complied dwm st and dmenu
 cd ~
 cd ~/github/dwm-thanos/slstatus
 sudo make uninstall
@@ -10,7 +12,10 @@ cd ~/github/st-thanos
 sudo make uninstall
 cd ~
 
+# Remove unwanted packages for the dwm
 sudo apt purge dwm stterm dmenu rofi arandr dunst i3lock arc-theme papirus-icon-theme xbacklight lxappearance xbindkeys -y
+
+# Install required packages on the XFCE
 sudo apt install packaging-dev build-essential automake autoconf git vim ranger htop nmap neofetch sudo efibootmgr -y
 sudo apt install firmware-iwlwifi -y
 sudo apt install lightdm x11-xserver-utils pulseaudio xorg xcb libx11-xcb-dev libxcb-res0-dev libimlib2-dev network-manager alsa-utils zoxide trash-cli ufw libglib2.0-dev libgtk-3-dev libgcr-3-dev libwebkit2gtk-4.0-dev firefox-esr -y
@@ -25,6 +30,8 @@ sudo apt autoclean -y
 sudo apt autopurge -y
 sudo unlink /usr/bin/gnome-terminal
 sudo rm -rf /usr/share/xsessions/dwm.desktop 
+
+# Remove / Install configuration files
 rm -rf ~/.config/rofi
 rm -rf ~/.config/dunst
 rm -rf ~/.config/picom.conf
@@ -68,10 +75,12 @@ mv nord-backgrounds backgrounds
 cd ~
 echo Done
 
-
-#Open Terminal Here
+# Post Installation Actions
+#Open Terminal Here - XFCE Terminal for right click on thunar
 #exo-open --working-directory %f --launch TerminalEmulator
 
+#Place Carlito 12 the default font everywhere
+#Place Carlito font also to Firefox-ESR
 
 
 
