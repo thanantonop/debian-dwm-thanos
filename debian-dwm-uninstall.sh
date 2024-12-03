@@ -27,16 +27,52 @@ sudo unlink /usr/bin/gnome-terminal
 sudo rm -rf /usr/share/xsessions/dwm.desktop 
 rm -rf ~/.config/rofi
 rm -rf ~/.config/dunst
+rm -rf ~/.config/picom.conf
+rm -rf ~/.config/gtk-3.0/settings.ini
+rm -rf ~/.config/gtk-2.0/gtkrc-2.0 
+rm -rf ~/.config/kitty/kitty.conf 
+rm -rf ~/.config/kitty/theme.conf
 rm -rf ~/github/dwm-thanos
 rm -rf ~/github/dmenu-thanos
 rm -rf ~/github/st-thanos
-cd ~/github/debian-dwm-thanos/dwm_uninstall/
+cd ~/github/debian-dwm-thanos/
 cp settings.ini ~/.config/gtk-3.0/
 cp gtkrc-2.0 ~/.config/gtk-2.0/
+cp picom.conf ~/.config/
+cp -R alacritty ~/.config/
+cp kitty.conf ~/.config/kitty/
+cp theme.conf ~/.config/kitty/
+cp nord.conf ~/.config/kitty/
 cd ~
+
+# Install Fonts
+cd ~/Downloads
+git clone https://github.com/thanantonop/fonts.git
+cp -R fonts ~/github/
+rm -rf ~/Downloads/fonts/.git
+rm -rf ~/.fonts
+mv fonts ~/.fonts
+rm -rf FiraCode.zip 
+rm -rf Meslo.zip 
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/FiraCode.zip
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Meslo.zip
+unzip FiraCode.zip -d ~/.fonts
+unzip Meslo.zip -d ~/.fonts
+cd ~
+
+# Install Nord-backgrounds
+cd ~/Pictures
+rm -rf ~/Pictures/backgrounds
+git clone https://github.com/thanantonop/nord-backgrounds.git
+mv nord-backgrounds backgrounds
+cd ~
+echo Done
+
 
 #Open Terminal Here
 #exo-open --working-directory %f --launch TerminalEmulator
+
+
 
 
 
