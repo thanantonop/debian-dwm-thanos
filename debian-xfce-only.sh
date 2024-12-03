@@ -35,21 +35,19 @@ sudo rm -rf /usr/share/xsessions/dwm.desktop
 rm -rf ~/.config/rofi
 rm -rf ~/.config/dunst
 rm -rf ~/.config/picom.conf
-rm -rf ~/.config/gtk-3.0/settings.ini
-rm -rf ~/.config/gtk-2.0/gtkrc-2.0 
-rm -rf ~/.config/kitty/kitty.conf 
-rm -rf ~/.config/kitty/theme.conf
+rm -rf ~/.config/gtk-3.0
+rm -rf ~/.config/gtk-2.0
+rm -rf ~/.config/kitty
+rm -rf ~/.config/alacritty
 rm -rf ~/github/dwm-thanos
 rm -rf ~/github/dmenu-thanos
 rm -rf ~/github/st-thanos
 cd ~/github/debian-dwm-thanos/
-cp settings.ini ~/.config/gtk-3.0/
-cp gtkrc-2.0 ~/.config/gtk-2.0/
+cp -R gtk-3.0 ~/.config/
+cp -R gtk-2.0 ~/.config/
 cp picom.conf ~/.config/
 cp -R alacritty ~/.config/
-cp kitty.conf ~/.config/kitty/
-cp theme.conf ~/.config/kitty/
-cp nord.conf ~/.config/kitty/
+cp -R kitty ~/.config/
 cd ~
 
 # Install Fonts
