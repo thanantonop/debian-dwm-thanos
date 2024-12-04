@@ -73,6 +73,19 @@ unzip Meslo.zip -d ~/.fonts
 rm -rf ~/.fonts/.git
 cd ~
 
+# Install Nordic theme
+cd /usr/share/themes
+sudo git clone https://github.com/EliverLara/Nordic.git
+cd ~
+cd ~/Downloads
+git clone https://github.com/alvatip/Nordzy-icon.git
+cd Nordzy-icon/
+sudo ./install.sh
+cd ~/Downloads
+git clone https://github.com/guillaumeboehm/Nordzy-cursors.git
+cd Nordzy-cursors/
+sudo ./install.sh
+
 # Install Nord-backgrounds
 cd ~/Pictures
 rm -rf ~/Pictures/backgrounds
