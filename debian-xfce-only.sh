@@ -13,13 +13,13 @@ sudo make uninstall
 cd ~
 
 # Remove unwanted packages for the dwm
-sudo apt purge dwm stterm dmenu rofi arandr dunst i3lock arc-theme papirus-icon-theme xbacklight lxappearance xbindkeys -y
+sudo apt purge dwm stterm dmenu rofi arandr dunst i3lock arc-theme papirus-icon-theme greybird-gtk-theme elementary-icon-theme xbacklight lxappearance xbindkeys -y
 
 # Install required packages on the XFCE
 sudo apt install packaging-dev build-essential automake autoconf git vim ranger htop nmap neofetch sudo efibootmgr -y
 sudo apt install firmware-iwlwifi -y
 sudo apt install lightdm x11-xserver-utils xorg xcb libx11-xcb-dev libxcb-res0-dev libimlib2-dev network-manager alsa-utils zoxide trash-cli ufw libglib2.0-dev libgtk-3-dev libgcr-3-dev libwebkit2gtk-4.0-dev firefox-esr -y
-sudo apt install python3 python3-pip lsd bat neovim bpytop mpv cmus audacious geany meld libreoffice libreoffice-gtk3 claws-mail abiword gnumeric emacs gimp stellarium transmission-gtk evince keepassxc inkscape darktable krita kdenlive qt5-style-kvantum qt5ct qt6ct filezilla qimgv blueman flatpak thunar thunar-volman thunar-archive-plugin acpi numlockx playerctl scrot sysstat feh galculator file-roller gvfs jq x11-utils tumbler vlc ttf-mscorefonts-installer chromium cherrytree xournal tree redshift synaptic conky-all cups gvfs-backends lm-sensors alacritty kitty fish mugshot fontforge greybird-gtk-theme elementary-icon-theme fonts-crosextra-carlito fonts-crosextra-caladea fonts-powerline fonts-font-awesome fonts-ubuntu fonts-ubuntu-console fonts-liberation fonts-liberation2 fonts-terminus -y
+sudo apt install python3 python3-pip lsd bat neovim bpytop mpv cmus audacious geany meld libreoffice libreoffice-gtk3 claws-mail abiword gnumeric emacs gimp stellarium transmission-gtk evince keepassxc inkscape darktable krita kdenlive qt5-style-kvantum qt5ct qt6ct filezilla qimgv blueman flatpak thunar thunar-volman thunar-archive-plugin acpi numlockx playerctl scrot sysstat feh galculator file-roller gvfs jq x11-utils tumbler vlc ttf-mscorefonts-installer chromium cherrytree xournal tree redshift synaptic conky-all cups gvfs-backends lm-sensors alacritty kitty fish mugshot fontforge fonts-crosextra-carlito fonts-crosextra-caladea fonts-powerline fonts-font-awesome fonts-ubuntu fonts-ubuntu-console fonts-liberation fonts-liberation2 fonts-terminus -y
 sudo apt install multitail tree zoxide trash-cli fzf bash-completion ffmpeg default-jdk git wget nano vim htop locate p7zip p7zip-full unzip dos2unix net-tools ethtool bind9-utils curl wget wireshark -y
 sudo apt install network-manager-gnome lightdm-gtk-greeter-settings celluloid strawberry timeshift gdebi gparted gufw thunderbird handbrake audacity hexchat -y
 sudo apt install ninja-build gettext cmake unzip curl -y
@@ -37,6 +37,8 @@ sudo apt autopurge -y
 sudo unlink /usr/bin/gnome-terminal
 sudo rm -rf /usr/share/xsessions/dwm.desktop 
 systemctl --user --now enable wireplumber.service 
+sudo rm -rf /usr/share/themes/Nordic
+sudo rm -rf /usr/share/icons/Nordzy*
 
 # Remove / Install configuration files
 rm -rf ~/.config/rofi
@@ -73,33 +75,11 @@ unzip Meslo.zip -d ~/.fonts
 rm -rf ~/.fonts/.git
 cd ~
 
-# Install Nordic theme
-cd /usr/share/themes
-sudo git clone https://github.com/EliverLara/Nordic.git
-cd ~
-cd ~/Downloads
-git clone https://github.com/alvatip/Nordzy-icon.git
-cd Nordzy-icon/
-sudo ./install.sh
-cd ~/Downloads
-git clone https://github.com/guillaumeboehm/Nordzy-cursors.git
-cd Nordzy-cursors/
-sudo ./install.sh
-
-# Install Nord-backgrounds
-cd ~/Pictures
-rm -rf ~/Pictures/backgrounds
-git clone https://github.com/thanantonop/nord-backgrounds.git
-mv nord-backgrounds backgrounds
-rm -rf ~/Pictures/backgrounds/.git
-cd ~
-echo Done
-
 # Post Installation Actions
 #Open Terminal Here - XFCE Terminal for right click on thunar
 #exo-open --working-directory %f --launch TerminalEmulator
 
-#XFCE panel - Bottom - 32Pixel panel - 22Pixel icons - Whisker Menu, Keyboard layout
+#XFCE panel - Bottom - 32Pixel panel - 26Pixel icons - Whisker Menu, Keyboard layout
 
 #Place Carlito 12 the default font everywhere
 #Place Carlito font also to Firefox-ESR
