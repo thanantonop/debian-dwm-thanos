@@ -25,6 +25,7 @@ sudo apt install network-manager-gnome lightdm-gtk-greeter-settings celluloid st
 sudo apt install qemu-system libvirt-daemon-system virt-manager -y
 sudo apt install task-desktop task-xfce-desktop -y
 sudo apt install xfce4 xfce4-goodies catfish -y
+sudo apt install xfce4* xfce4-panel-profiles orage -y
 sudo apt install libspa-0.2-bluetooth wireplumber pipewire-media-session- -y
 sudo apt install pipewire-pulse pipewire-jack pipewire-alsa -y
 sudo apt autoremove -y
