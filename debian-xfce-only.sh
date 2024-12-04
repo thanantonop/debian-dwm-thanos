@@ -70,6 +70,7 @@ wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/FiraCode.z
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Meslo.zip
 unzip FiraCode.zip -d ~/.fonts
 unzip Meslo.zip -d ~/.fonts
+rm -rf ~/.fonts/.git
 cd ~
 
 # Install Nord-backgrounds
@@ -77,6 +78,7 @@ cd ~/Pictures
 rm -rf ~/Pictures/backgrounds
 git clone https://github.com/thanantonop/nord-backgrounds.git
 mv nord-backgrounds backgrounds
+rm -rf ~/Pictures/backgrounds/.git
 cd ~
 echo Done
 
